@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube Clone Project</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <img class="hamburger-menu" src="icons/menu-symbol-of-three-parallel-lines.svg" alt="hamburger menu">
+                <img class="youtube-logo" src="icons/youtube-2-logo.svg" alt="youtube logo">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search-alt-1.svg" alt="search menu">
+                    <div class="tooltip">search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="icons/mic.svg" alt="mic logo">
+                    <div class="tooltip">search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="icons/video-plus-svgrepo-com.svg" alt="cam logo">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="dashboard-icon-container">
+                    <img class="youtube-dash-icon" src="icons/mosaic-of-nine-square-tiles-hand-drawn-symbol.svg" alt="nine dots logo">
+                    <div class="tooltip">Dashboard</div>
+                </div>
+                <div class="notification-icon-container">
+                    <img class="notification-icon" src="icons/bell-alt-svgrepo-com.svg" alt="bell logo">
+                    <div class="notifications-count">3</div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+                <img class="current-user-picture" src="channel-picture/channels7_profile.jpg" alt="profile">
+            </div>            
+        </header>
+
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="icons/home.svg" alt="">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/explore.svg" alt="">
+                <div>Explore</div></div>
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.svg" alt="">
+                <div>Subscription</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/youtube.svg" alt="">
+                <div>Original</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/youtube-music.svg" alt="">
+                <div>Youtube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/library-add.svg" alt="">
+                <div>Library</div>
+            </div>
+        </nav>
+        
+        <main>
+                <section class="video-grid">
+                    <div class="video-preview">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/hq720.webp">
+                            <div class="video-time">14:20</div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="channel-picture"> 
+                                <img class="profile-picture" src="channel-picture/channels4_profile.jpg" alt="thumbnail">
+                            </div>
+                            <div class="video-info">
+                                <p class="video-title">
+                                    Ayanokouji Tier List Volume!!
+                                </p>
+                                <p class="video-author">
+                                    Rivensin
+                                </p>
+                                <p class="video-stat">
+                                    12M views  &#8226; 2 years ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="video-preview">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/hqdefault.jpg">
+                            <div class="video-time">4:45</div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="channel-picture"> 
+                                <img class="profile-picture" src="channel-picture/channels3_profile.jpg" alt="thumbnail">
+                            </div>
+                            <div class="video-info">
+                                <p class="video-title">
+                                    Skirt & PUNPEE - ODDTAXI / THE FIRST TAKE
+                                </p>
+                                <p class="video-author">
+                                    THE FIRST TAKE
+                                </p>
+                                <p class="video-stat">
+                                    18M views  &#8226; 1 years ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="video-preview">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/hq721.webp">
+                            <div class="video-time">4:06</div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="channel-picture"> 
+                                <img class="profile-picture" src="channel-picture/channels5_profile.jpg" alt="thumbnail">
+                            </div>
+                            <div class="video-info">
+                                <p class="video-title">
+                                    踊り子 / Vaundy - MUSIC VIDEO
+                                </p>
+                                <p class="video-author">
+                                    Vaundy &#9837;
+                                </p>
+                                <p class="video-stat">
+                                    101M views  &#8226; 2 years ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="video-preview">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/hq722.webp">
+                            <div class="video-time">4:17</div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="channel-picture"> 
+                                <img class="profile-picture" src="channel-picture/channels3_profile.jpg" alt="thumbnail">
+                            </div>
+                            <div class="video-info">
+                                <p class="video-title">
+                                    AIMER - KATAOMOI / THE FIRST TAKE 
+                                </p>
+                                <p class="video-author">
+                                    THE FIRST TAKE
+                                </p>
+                                <p class="video-stat">
+                                    41M views  &#8226; 2 years ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="video-preview">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/hq723.webp">
+                            <div class="video-time">5:19</div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="channel-picture"> 
+                                <img class="profile-picture" src="channel-picture/unnamed.jpg" alt="thumbnail">
+                            </div>
+                            <div class="video-info">
+                                <p class="video-title">
+                                    back number - ハッピーエンド (full)
+                                </p>
+                                <p class="video-author">
+                                    back number &sung;
+                                </p>
+                                <p class="video-stat">
+                                    106M views  &#8226; 4 years ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="video-preview">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/hq724.webp">
+                            <div class="video-time">4:23</div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="channel-picture"> 
+                                <img class="profile-picture" src="channel-picture/channels6_profile.jpg" alt="thumbnail">
+                            </div>
+                            <div class="video-info">
+                                <p class="video-title">
+                                    夜に駆ける
+                                </p>
+                                <p class="video-author">             
+                                    Ayase / YOASOBI     
+                                </p>
+                                <p class="video-stat">
+                                    268M views  &#8226; 4 years ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video-preview">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/hq726.webp">
+                            <div class="video-time">7:28</div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="channel-picture"> 
+                                <img class="profile-picture" src="channel-picture/channels8_profile.jpg" alt="thumbnail">
+                            </div>
+                            <div class="video-info">
+                                <p class="video-title">
+                                    RADWIMPS - 愛にできることはまだあるかい [Official Music Video]
+                                </p>
+                                <p class="video-author">             
+                                    RADWIMPS &sung;  
+                                </p>
+                                <p class="video-stat">
+                                    126M views  &#8226; 5 years ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>        
+
+                    <div class="video-preview">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/hq725.webp">
+                            <div class="video-time">5:02</div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="channel-picture"> 
+                                <img class="profile-picture" src="channel-picture/channels5_profile.jpg" alt="thumbnail">
+                            </div>
+                            <div class="video-info">
+                                <p class="video-title">
+                                    恋風邪にのせて / Vaundy MUSIC VIDEO
+                                </p>
+                                <p class="video-author">             
+                                    Vaundy &sung;
+                                </p>
+                                <p class="video-stat">
+                                    24M views  &#8226; 2 years ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video-preview">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/hq727.webp">
+                            <div class="video-time">4:26</div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="channel-picture"> 
+                                <img class="profile-picture" src="channel-picture/channels9_profile.jpg" alt="thumbnail">
+                            </div>
+                            <div class="video-info">
+                                <p class="video-title">
+                                    KANA-BOON - Silhouette
+                                </p>
+                                <p class="video-author">             
+                                    KANA-BOON Official YouTube Channel    
+                                </p>
+                                <p class="video-stat">
+                                    304M views  &#8226; 8 years ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video-preview">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/hq728.webp">
+                            <div class="video-time">4:58</div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="channel-picture"> 
+                                <img class="profile-picture" src="channel-picture/channels10_profile.jpg" alt="thumbnail">
+                            </div>
+                            <div class="video-info">
+                                <p class="video-title">
+                                    Yuika - Sukidakara (Lyric Video)
+                                </p>
+                                <p class="video-author">             
+                                    &#8968;ユイカ&#x2143;  
+                                </p>
+                                <p class="video-stat">
+                                    86M views  &#8226; 3 years ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video-preview">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/hq729.webp">
+                            <div class="video-time">3:14</div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="channel-picture"> 
+                                <img class="profile-picture" src="channel-picture/channels11_profile.jpg" alt="thumbnail">
+                            </div>
+                            <div class="video-info">
+                                <p class="video-title">
+                                    Natori - Overdose 
+                                </p>
+                                <p class="video-author">             
+                                    なとり / natori  &sung;
+                                </p>
+                                <p class="video-stat">
+                                    178M views  &#8226; 2 years ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video-preview">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/hq730.webp">
+                            <div class="video-time">3:57</div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="channel-picture"> 
+                                <img class="profile-picture" src="channel-picture/channels8_profile.jpg" alt="thumbnail">
+                            </div>
+                            <div class="video-info">
+                                <p class="video-title">
+                                    RADWIMPS - すずめ feat.十明 [Official Lyric Video]
+                                </p>
+                                <p class="video-author">                     
+                                    RADWIMPS&sung;
+                                </p>
+                                <p class="video-stat">
+                                    72M views  &#8226; 2 years ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </main>
+
+    </body>
+</html>
